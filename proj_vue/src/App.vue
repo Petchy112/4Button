@@ -2,32 +2,16 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-<div class="row">
-  <div class="col-6"><Counter lable="ชอบ"/></div>
-  <div class="col-6"><Counter lable="ไม่ชอบ"/></div>
-  <div class="col-6"><Counter lable="รัก"/></div>
-  <div class="col-6"><Counter lable="เกลียด"/></div>
-</div>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import CsButton from './components/Counter.vue'
-
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    Counter,
-  },
-  data :function(){
-    total:0
-  },
-
-  methods:{
-    sum((counterValue))
+    HelloWorld
   }
 }
 </script>
