@@ -1,22 +1,29 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>LOOK AT YOU NOW LOOK AT ME !</h1>
     <div class="row">
-      <div class="col-6"><CsButton label="like"/></div>
+      <div class="col-6">
+        <img alt="" src="./assets/pic4.jpg" width="500px" >
+      </div>
+      <div class="col-6">
+        <img alt="" src="./assets/pro.jpg" width="500px" >
+      </div>  
+    </div> 
+  
+    <div class="row">
+      <div class="col-6"><CsButton/></div>
+      <div class="col-6"><CsButton/></div>
       
     </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import CsButton from './components/CsButton.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     CsButton,
   },
 }
@@ -29,6 +36,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin: 60px;
+  padding: 60px;
 }
+
 </style>
